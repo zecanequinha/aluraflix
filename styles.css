@@ -8,7 +8,9 @@ body {
 header {
     border-bottom: solid 5xp rgb(65, 11, 54);
     padding: 40px;
+    text-align: center;
     font-size: 40px;
+    font-weight: bolder;
     color:rgb(227, 241, 236);
 }
 
