@@ -1,12 +1,12 @@
 body {
-    color: rgb(85, 76, 76);
-    background: rgb(2, 6, 51);
+    color: rgb(228, 223, 223);
+    background: rgb(0, 1, 5);
     margin: 0px;
     font-family: "Asimovian", sans-serif;
 }
 
 header {
-    border-bottom: solid 5xp rgb(65, 11, 54);
+    border-bottom: solid 5xp rgb(161, 18, 23);
     padding: 40px;
     text-align: center;
     font-size: 40px;
@@ -14,8 +14,8 @@ header {
     color:rgb(227, 241, 236);
 }
 
-section {
-    background: rgb(184,156,213);
+.chamada {
+    background: rgb(56, 53, 53);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -36,4 +36,13 @@ p{
 img { 
     height: 200px;
 
+}
+.categoria-videos {
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+section {
+    padding-left: 20px;
+    padding-right: 20px;
 }
